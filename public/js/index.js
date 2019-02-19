@@ -1,6 +1,6 @@
 ReactDOM.render(
     <App
-        numberOfItemsInCart = {StaticRange.numberOfItemsInCart}
+        numberOfItemsInCart = {state.numberOfItemsInCart}
         products={state.products}
     />,
     document.getElementById("root"));
