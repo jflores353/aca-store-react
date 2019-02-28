@@ -25,7 +25,7 @@ function Header(props){
                     </li>
                     <li >
                         <a href="#">Items In Cart (
-                            {props.numberOfItemsInCart})</a>
+                            {props.cart.length})</a>
                     </li>
                 </ul>
             </div>

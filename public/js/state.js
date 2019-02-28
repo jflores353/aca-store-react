@@ -1,5 +1,6 @@
 //possibly change to globalState
 state =  {
+    shoppingCart: [],
     numberOfItemsInCart: 0,
     products: [ {
       "id": 1,

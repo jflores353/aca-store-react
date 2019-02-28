@@ -12,7 +12,7 @@ function App(props){
     });
 
     return( <div className="App">
-        <Header numberOfItemsInCart = {props.numberOfItemsInCart}/>
+        <Header cart = {props.cart}/>
         <div className="container">
             <div className="row">
                 <div className="col-md-3">
