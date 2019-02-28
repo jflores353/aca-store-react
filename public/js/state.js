@@ -1,3 +1,4 @@
+//possibly change to globalState
 state =  {
     numberOfItemsInCart: 0,
     products: [ {

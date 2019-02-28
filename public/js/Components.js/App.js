@@ -1,7 +1,14 @@
 function App(props){
+// extends React component
 
+// state{
+
+// }
     const productDetails = props.products.map((product, index)=>{
-        return <ProductDetail key={index} product={product} />
+        return <ProductDetail 
+        addToCart={props.addToCart}
+        key={index} 
+        product={product} />
     });
 
     return( <div className="App">
